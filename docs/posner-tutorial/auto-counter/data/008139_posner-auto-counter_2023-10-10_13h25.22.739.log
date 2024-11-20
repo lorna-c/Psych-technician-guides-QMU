@@ -1,0 +1,160 @@
+6.6145 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+8.4342 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FD7A67FFA0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FD7A67FF40>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FD7A67FD60>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001FD7A9D2940>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.4343 	EXP 	window1: mouseVisible = True
+8.4343 	EXP 	window1: backgroundImage = ''
+8.4343 	EXP 	window1: backgroundFit = 'none'
+8.4355 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.4355 	EXP 	window1: recordFrameIntervals = False
+8.4946 	EXP 	window1: recordFrameIntervals = True
+8.5609 	EXP 	Screen (0) actual frame rate measured at 165.25Hz
+8.5609 	EXP 	window1: recordFrameIntervals = False
+8.5610 	EXP 	window1: mouseVisible = False
+11.2812 	EXP 	posner-auto-counter: status = STARTED
+11.2815 	EXP 	window1: mouseVisible = True
+11.2912 	EXP 	Created cue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='cue', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+11.2913 	EXP 	window1: mouseVisible = True
+11.3295 	EXP 	Created target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='target.png', interpolate=True, mask=None, maskParams=None, name='target', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+11.3296 	EXP 	window1: mouseVisible = True
+0.0118 	EXP 	Imported groupA_blocks.xlsx as conditions, 2 conditions, 1 params
+0.0121 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+0.0122 	EXP 	New trial (rep=0, index=0): {'blockfile': 'valid_conditions.xlsx'}
+0.0152 	EXP 	Imported valid_conditions.xlsx as conditions, 4 conditions, 3 params
+0.0154 	EXP 	Created sequence: random, trialTypes=4, nReps=2, seed=None
+0.0156 	EXP 	New trial (rep=0, index=0): {'cue_file': 'cue_left.png', 'target_x': -0.5, 'is_valid': 'valid'}
+0.6510 	EXP 	cue: image = 'cue_left.png'
+0.6510 	EXP 	cue: autoDraw = True
+0.7105 	EXP 	target: autoDraw = True
+1.3520 	EXP 	cue: autoDraw = False
+1.5498 	DATA 	Mouse: Left button down, pos=(494,657)
+1.5581 	EXP 	New trial (rep=0, index=1): {'cue_file': 'cue_left.png', 'target_x': -0.5, 'is_valid': 'valid'}
+1.9294 	DATA 	Mouse:  Left button up, pos=(494,657)
+1.9447 	EXP 	cue: autoDraw = False
+1.9447 	EXP 	target: autoDraw = False
+1.9447 	EXP 	cue: image = 'cue_left.png'
+1.9447 	EXP 	cue: autoDraw = True
+2.2620 	EXP 	target: autoDraw = True
+2.6424 	EXP 	cue: autoDraw = False
+2.7518 	DATA 	Mouse: Left button down, pos=(472,539)
+2.7526 	EXP 	New trial (rep=0, index=2): {'cue_file': 'cue_right.png', 'target_x': 0.5, 'is_valid': 'valid'}
+3.0851 	DATA 	Mouse:  Left button up, pos=(472,539)
+3.0994 	EXP 	cue: autoDraw = False
+3.0994 	EXP 	target: autoDraw = False
+3.0994 	EXP 	cue: image = 'cue_right.png'
+3.0994 	EXP 	cue: autoDraw = True
+3.4556 	EXP 	target: autoDraw = True
+3.7987 	DATA 	Mouse: Left button down, pos=(1469,557)
+3.8022 	EXP 	New trial (rep=0, index=3): {'cue_file': 'cue_right.png', 'target_x': 0.5, 'is_valid': 'valid'}
+4.1299 	DATA 	Mouse:  Left button up, pos=(1469,557)
+4.1437 	EXP 	cue: autoDraw = False
+4.1437 	EXP 	cue: autoDraw = False
+4.1437 	EXP 	target: autoDraw = False
+4.1437 	EXP 	cue: image = 'cue_right.png'
+4.1437 	EXP 	cue: autoDraw = True
+4.5038 	EXP 	target: autoDraw = True
+4.7586 	DATA 	Mouse: Left button down, pos=(1469,557)
+4.7594 	EXP 	New trial (rep=1, index=0): {'cue_file': 'cue_right.png', 'target_x': 0.5, 'is_valid': 'valid'}
+5.0924 	DATA 	Mouse:  Left button up, pos=(1469,557)
+5.1066 	EXP 	cue: autoDraw = False
+5.1066 	EXP 	target: autoDraw = False
+5.1066 	EXP 	cue: image = 'cue_right.png'
+5.1066 	EXP 	cue: autoDraw = True
+5.4611 	EXP 	target: autoDraw = True
+5.7222 	DATA 	Mouse: Left button down, pos=(1469,557)
+5.7230 	EXP 	New trial (rep=1, index=1): {'cue_file': 'cue_right.png', 'target_x': 0.5, 'is_valid': 'valid'}
+6.0657 	DATA 	Mouse:  Left button up, pos=(1469,557)
+6.0801 	EXP 	cue: autoDraw = False
+6.0801 	EXP 	target: autoDraw = False
+6.0801 	EXP 	cue: image = 'cue_right.png'
+6.0801 	EXP 	cue: autoDraw = True
+6.4243 	EXP 	target: autoDraw = True
+6.6613 	DATA 	Mouse: Left button down, pos=(1469,557)
+6.6620 	EXP 	New trial (rep=1, index=2): {'cue_file': 'cue_left.png', 'target_x': -0.5, 'is_valid': 'valid'}
+7.0389 	DATA 	Mouse:  Left button up, pos=(1469,557)
+7.0531 	EXP 	cue: autoDraw = False
+7.0531 	EXP 	target: autoDraw = False
+7.0531 	EXP 	cue: image = 'cue_left.png'
+7.0531 	EXP 	cue: autoDraw = True
+7.3637 	EXP 	target: autoDraw = True
+7.7401 	DATA 	Mouse: Left button down, pos=(382,550)
+7.7408 	EXP 	New trial (rep=1, index=3): {'cue_file': 'cue_left.png', 'target_x': -0.5, 'is_valid': 'valid'}
+8.1153 	DATA 	Mouse:  Left button up, pos=(382,550)
+8.1305 	EXP 	cue: autoDraw = False
+8.1305 	EXP 	target: autoDraw = False
+8.1305 	EXP 	cue: image = 'cue_left.png'
+8.1305 	EXP 	cue: autoDraw = True
+8.4424 	EXP 	target: autoDraw = True
+8.6548 	DATA 	Mouse: Left button down, pos=(382,549)
+8.6555 	EXP 	New trial (rep=0, index=1): {'blockfile': 'invalid_conditions.xlsx'}
+8.6671 	EXP 	Imported invalid_conditions.xlsx as conditions, 4 conditions, 3 params
+8.6674 	EXP 	Created sequence: random, trialTypes=4, nReps=2, seed=None
+8.6675 	EXP 	New trial (rep=0, index=0): {'cue_file': 'cue_left.png', 'target_x': 0.5, 'is_valid': 'invalid'}
+9.0403 	DATA 	Mouse:  Left button up, pos=(382,549)
+9.0558 	EXP 	cue: autoDraw = False
+9.0558 	EXP 	target: autoDraw = False
+9.0558 	EXP 	cue: image = 'cue_left.png'
+9.0558 	EXP 	cue: autoDraw = True
+9.3575 	EXP 	target: autoDraw = True
+9.7560 	EXP 	cue: autoDraw = False
+9.8779 	DATA 	Mouse: Left button down, pos=(1403,539)
+9.8844 	EXP 	New trial (rep=0, index=1): {'cue_file': 'cue_right.png', 'target_x': -0.5, 'is_valid': 'invalid'}
+10.2193 	DATA 	Mouse:  Left button up, pos=(1403,539)
+10.2337 	EXP 	cue: autoDraw = False
+10.2337 	EXP 	target: autoDraw = False
+10.2337 	EXP 	cue: image = 'cue_right.png'
+10.2337 	EXP 	cue: autoDraw = True
+10.5876 	EXP 	target: autoDraw = True
+10.9316 	EXP 	cue: autoDraw = False
+11.0651 	DATA 	Mouse: Left button down, pos=(311,478)
+11.0658 	EXP 	New trial (rep=0, index=2): {'cue_file': 'cue_left.png', 'target_x': 0.5, 'is_valid': 'invalid'}
+11.5072 	DATA 	Mouse:  Left button up, pos=(311,478)
+11.5211 	EXP 	cue: autoDraw = False
+11.5211 	EXP 	target: autoDraw = False
+11.5211 	EXP 	cue: image = 'cue_left.png'
+11.5211 	EXP 	cue: autoDraw = True
+11.7689 	EXP 	target: autoDraw = True
+12.1752 	DATA 	Mouse: Left button down, pos=(1367,466)
+12.1759 	EXP 	New trial (rep=0, index=3): {'cue_file': 'cue_right.png', 'target_x': -0.5, 'is_valid': 'invalid'}
+12.5527 	DATA 	Mouse:  Left button up, pos=(1367,466)
+12.5668 	EXP 	cue: autoDraw = False
+12.5668 	EXP 	target: autoDraw = False
+12.5668 	EXP 	cue: image = 'cue_right.png'
+12.5668 	EXP 	cue: autoDraw = True
+12.8779 	EXP 	target: autoDraw = True
+13.2705 	EXP 	cue: autoDraw = False
+13.3680 	DATA 	Mouse: Left button down, pos=(368,579)
+13.3688 	EXP 	New trial (rep=1, index=0): {'cue_file': 'cue_left.png', 'target_x': 0.5, 'is_valid': 'invalid'}
+13.9338 	DATA 	Mouse:  Left button up, pos=(368,579)
+13.9489 	EXP 	cue: autoDraw = False
+13.9489 	EXP 	target: autoDraw = False
+13.9489 	EXP 	cue: image = 'cue_left.png'
+13.9489 	EXP 	cue: autoDraw = True
+14.0715 	EXP 	target: autoDraw = True
+14.5569 	DATA 	Mouse: Left button down, pos=(1409,531)
+14.5577 	EXP 	New trial (rep=1, index=1): {'cue_file': 'cue_left.png', 'target_x': 0.5, 'is_valid': 'invalid'}
+15.0837 	DATA 	Mouse:  Left button up, pos=(1409,531)
+15.0977 	EXP 	cue: autoDraw = False
+15.0977 	EXP 	target: autoDraw = False
+15.0977 	EXP 	cue: image = 'cue_left.png'
+15.0977 	EXP 	cue: autoDraw = True
+15.2591 	EXP 	target: autoDraw = True
+15.7079 	DATA 	Mouse: Left button down, pos=(1460,517)
+15.7086 	EXP 	New trial (rep=1, index=2): {'cue_file': 'cue_right.png', 'target_x': -0.5, 'is_valid': 'invalid'}
+16.1786 	DATA 	Mouse:  Left button up, pos=(1460,517)
+16.1928 	EXP 	cue: autoDraw = False
+16.1928 	EXP 	target: autoDraw = False
+16.1928 	EXP 	cue: image = 'cue_right.png'
+16.1928 	EXP 	cue: autoDraw = True
+16.4104 	EXP 	target: autoDraw = True
+16.8410 	DATA 	Mouse: Left button down, pos=(473,584)
+16.8419 	EXP 	New trial (rep=1, index=3): {'cue_file': 'cue_right.png', 'target_x': -0.5, 'is_valid': 'invalid'}
+17.2919 	DATA 	Mouse:  Left button up, pos=(473,584)
+17.3059 	EXP 	cue: autoDraw = False
+17.3059 	EXP 	target: autoDraw = False
+17.3059 	EXP 	cue: image = 'cue_right.png'
+17.3059 	EXP 	cue: autoDraw = True
+17.5434 	EXP 	target: autoDraw = True
+17.7986 	DATA 	Mouse: Left button down, pos=(473,584)
+17.8026 	EXP 	cue: autoDraw = False
+17.8026 	EXP 	target: autoDraw = False
+17.8027 	EXP 	posner-auto-counter: status = STOPPED
+19.1117 	EXP 	window1: mouseVisible = True

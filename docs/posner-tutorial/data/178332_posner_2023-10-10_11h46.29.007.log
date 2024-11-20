@@ -1,0 +1,21 @@
+7.1774 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+7.7900 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000020385C33BE0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000020385C33B80>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000020385C339A0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000020385E098B0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.7901 	EXP 	window1: mouseVisible = True
+7.7901 	EXP 	window1: backgroundImage = ''
+7.7901 	EXP 	window1: backgroundFit = 'none'
+7.7912 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.7912 	EXP 	window1: recordFrameIntervals = False
+7.8503 	EXP 	window1: recordFrameIntervals = True
+7.9169 	EXP 	Screen (0) actual frame rate measured at 166.27Hz
+7.9169 	EXP 	window1: recordFrameIntervals = False
+7.9170 	EXP 	window1: mouseVisible = False
+10.9614 	EXP 	posner: status = STARTED
+10.9618 	EXP 	window1: mouseVisible = True
+10.9730 	EXP 	Created cue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='cue', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+10.9732 	EXP 	window1: mouseVisible = True
+11.0571 	EXP 	Created target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='target.png', interpolate=True, mask=None, maskParams=None, name='target', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+11.0572 	EXP 	window1: mouseVisible = True
+0.0139 	EXP 	Imported block-design-spreadsheets/blocks.xlsx as conditions, 2 conditions, 1 params
+0.0143 	EXP 	Created sequence: random, trialTypes=2, nReps=1, seed=None
+0.0144 	EXP 	New trial (rep=0, index=0): {'blockfile': 'block-design-spreadsheets/valid_conditions.xlsx'}
+0.0288 	EXP 	window1: mouseVisible = True
